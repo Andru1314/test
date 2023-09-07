@@ -1,0 +1,1315 @@
+  
+  
+  
+  @font-face {
+    font-family: Bug;
+    src: url(gnyrwn971.ttf);
+  }
+  
+  body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Bug;
+  }
+  
+  .openNav{
+    position: absolute;
+    font-size: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .closeNav{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    display: none;
+  }
+  
+  .openNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .closeNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .nav{
+    margin: 0%;
+    position: absolute;
+    z-index: 20;
+    width: 310px;
+    height: 350px;
+    background: rgb(255, 32, 88);
+    left: 65px;
+    top: 65px;
+    border-radius: 25px;
+    display: none;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  
+  nav ul li{
+    padding-bottom: 30px;
+    padding-right: 10px;
+  }
+  
+  nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav ul li a:hover{
+    transition: 0.5s;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px rgb(255, 33, 155);
+  }
+  
+  
+  
+  
+  .home{
+    margin: 0%;
+  }
+  
+  .home::after{
+    content: "";
+    position: absolute;
+    background-image: url(fon4.jpg);
+    width: 100%;
+    height: 285vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  
+  
+  
+  
+  h1{
+    margin: 0%;
+    position: absolute;
+    width: auto;
+    font-size: 33px;
+    left: 100px;
+    top: 15px;
+    color: white;
+  }
+  
+  
+  .txt1{
+    position: absolute;
+    margin: 0%;
+    width: 400px;
+    height: 300px;
+    top: 80px;
+  }
+  
+  .p1{
+    margin: 0%;
+    font-size: 28px;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  .list{
+    font-size: 22px;
+    color: white;
+  }
+  
+  
+  
+  .matrasik{
+    position: absolute;
+    width: 180px;
+    top: 260px;
+    right: 10px;
+  }
+  
+  .matrasiktxt{
+    position: absolute;
+    font-size: 23px;
+    right: 55px;
+    top: 360px;
+    color: white;
+  }
+  
+  
+  
+  .txt2{
+    margin: 0%;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 400px;
+    left: 10px;
+  }
+  
+  .p2{
+    font-size: 23px;
+    color: white;
+  }
+
+  .hrysina{
+    display: none;
+  }
+  
+  
+  .p3{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 840px;
+    left: 0px;
+    text-align: center;
+  }
+  
+  .st1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 440px;
+    left: 270px;
+    display: none;
+  }
+  
+  .st2{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 440px;
+    left: 757px;
+    display: none;
+  }
+  
+  
+  .p4{
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    top: 640px;
+    left: 15px;
+
+  }
+  
+  
+  
+  .video1{
+    position: absolute;
+    width: 405px;
+    top: 940px;
+    left: 10px;
+    border-radius: 20px;
+  }
+  
+  .lov1{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 1140px;
+    left: 110px;
+
+  }
+  
+  
+  
+  .video2{
+    position: absolute;
+    width: 405px;
+    top: 1250px;
+    left: 10px;
+    border-radius: 20px;
+  }
+  
+  .lov2{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 1450px;
+    left: 105px;
+  }
+  
+  
+  
+  .video3{
+    position: absolute;
+    width: 405px;
+    top: 1580px;
+    left: 10px;
+    border-radius: 20px;
+  }
+  
+  .rasp{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 1780px;
+    left: 155px;
+  }
+   
+
+
+  .footer{
+    margin: 0%;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: darkolivegreen;
+    bottom: -1255px;
+  }
+  
+  .tel{
+    margin: 0px;
+    position: absolute;
+    top: 6px;
+    left: 40px;
+  }
+  
+  .smilefoot{
+    margin: 0%;
+    text-align: center;
+    padding-top: 4px;
+    display: none;
+  }
+  
+  .post{
+    margin: 0%;
+    position: absolute;
+    right: 40px;
+    top: 6px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  @font-face {
+    font-family: Bug;
+    src: url(gnyrwn971.ttf);
+  }
+  
+  body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Bug;
+  }
+  
+  .openNav{
+    position: absolute;
+    font-size: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .closeNav{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    display: none;
+  }
+  
+  .openNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .closeNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .nav{
+    margin: 0%;
+    position: absolute;
+    z-index: 20;
+    width: 310px;
+    height: 350px;
+    background: rgb(255, 32, 88);
+    left: 65px;
+    top: 65px;
+    border-radius: 25px;
+    display: none;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  
+  nav ul li{
+    padding-bottom: 30px;
+    padding-right: 10px;
+  }
+  
+  nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav ul li a:hover{
+    transition: 0.5s;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px rgb(255, 33, 155);
+  }
+  
+  
+  
+  
+  .home{
+    margin: 0%;
+  }
+  
+  .home::after{
+    content: "";
+    position: absolute;
+    background-image: url(fon4.jpg);
+    width: 100%;
+    height: 145vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  
+  
+  
+  
+  h1{
+    margin: 0%;
+    position: absolute;
+    font-size: 40px;
+    left: 250px;
+    top: 10px;
+    color: white;
+  }
+  
+  
+  .txt1{
+    position: absolute;
+    margin: 0%;
+    width: 600px;
+    height: 300px;
+    top: 80px;
+  }
+  
+  .p1{
+    margin: 0%;
+    font-size: 33px;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  .list{
+    font-size: 27px;
+    color: white;
+  }
+  
+  
+  
+  .matrasik{
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .matrasiktxt{
+    position: absolute;
+    font-size: 23px;
+    right: 65px;
+    top: 155px;
+    color: white;
+  }
+  
+  
+  
+  .txt2{
+    margin: 0%;
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 220px;
+    left: 400px;
+  }
+  
+  .p2{
+    font-size: 23px;
+    color: white;
+  }
+  
+  
+  .p3{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 420px;
+    left: 300px;
+    display: none;
+  }
+  
+  .st1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 440px;
+    left: 270px;
+  }
+  
+  .st2{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 440px;
+    left: 757px;
+  }
+  
+  
+  .p4{
+    position: absolute;
+    font-size: 23px;
+    width: 380px;
+    color: white;
+    top: 360px;
+    left: 20px;
+  }
+  
+  
+  
+  .video1{
+    position: absolute;
+    width: 369px;
+    top: 680px;
+    left: 10px;
+    border-radius: 20px;
+   
+  }
+  
+  .lov1{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 860px;
+    left: 100px;
+  }
+  
+  
+  
+  .video2{
+    position: absolute;
+    width: 369px;
+    top: 680px;
+    left: 389px;
+    border-radius: 20px;
+  }
+  
+  .lov2{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 860px;
+    left: 475px;
+  }
+  
+  
+  
+  .video3{
+    position: absolute;
+    width: 250px;
+    top: 480px;
+    left: 450px;
+    border-radius: 10px;
+  }
+  
+  .rasp{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 27px;
+    color: white;
+    top: 590px;
+    left: 525px;
+  }
+   
+
+
+
+
+
+
+
+  .footer{
+    margin: 0%;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: darkolivegreen;
+    bottom: -329px;
+  }
+  
+  .tel{
+    margin: 0px;
+    position: absolute;
+    top: 6px;
+    left: 140px;
+  }
+  
+  .smilefoot{
+    margin: 0%;
+    text-align: center;
+    padding-top: 4px;
+  }
+  
+  .post{
+    margin: 0%;
+    position: absolute;
+    right: 140px;
+    top: 6px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+  @font-face {
+    font-family: Bug;
+    src: url(gnyrwn971.ttf);
+  }
+  
+  body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Bug;
+  }
+  
+  .openNav{
+    position: absolute;
+    font-size: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .closeNav{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    display: none;
+  }
+  
+  .openNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .closeNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .nav{
+    margin: 0%;
+    position: absolute;
+    z-index: 20;
+    width: 310px;
+    height: 350px;
+    background: rgb(255, 32, 88);
+    left: 65px;
+    top: 65px;
+    border-radius: 25px;
+    display: none;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  
+  nav ul li{
+    padding-bottom: 30px;
+    padding-right: 10px;
+  }
+  
+  nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav ul li a:hover{
+    transition: 0.5s;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px rgb(255, 33, 155);
+  }
+  
+  
+  
+  
+  .home{
+    margin: 0%;
+  }
+  
+  .home::after{
+    content: "";
+    position: absolute;
+    background-image: url(fon4.jpg);
+    width: 100%;
+    height: 170vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  
+  
+  
+  
+  h1{
+    margin: 0%;
+    position: absolute;
+    font-size: 40px;
+    left: 360px;
+    top: 10px;
+    color: white;
+  }
+  
+  
+  .txt1{
+    position: absolute;
+    margin: 0%;
+    width: 500px;
+    height: 300px;
+    top: 80px;
+  }
+  
+  .p1{
+    margin: 0%;
+    font-size: 33px;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  .list{
+    font-size: 23px;
+    color: white;
+  }
+  
+  
+  
+  .matrasik{
+    position: absolute;
+    width: 160px;
+    top: 200px;
+    right: 530px;
+  }
+  
+  .matrasiktxt{
+    position: absolute;
+    font-size: 23px;
+    right: 560px;
+    top: 285px;
+    color: white;
+  }
+  
+  
+  
+  .txt2{
+    margin: 0%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 50px;
+    left: 500px;
+  }
+  
+  .p2{
+    font-size: 27px;
+    color: white;
+  }
+  
+  
+  .p3{
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    top: 470px;
+    left: 550px;
+    display: block;
+  }
+  
+  .st1{
+    position: absolute;
+    font-size: 37px;
+    color: white;
+    top: 415px;
+    left: 570px;
+    transform: rotateX(180deg);
+    display: block;
+  }
+  
+  .st2{
+    position: absolute;
+    font-size: 37px;
+    color: white;
+    top: 415px;
+    left: 900px;
+    transform: rotateX(180deg);
+    display: block;
+  }
+  
+  
+  .p4{
+    position: absolute;
+    font-size: 23px;
+    width: auto;
+    color: white;
+    top: 320px;
+    left: 30px;
+  }
+  
+  
+  
+  .video1{
+    position: absolute;
+    width: 220px;
+    top: 330px;
+    left: 510px;
+    border-radius: 10px;
+  }
+  
+  .lov1{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 800px;
+    left: 160px;
+    display: none;
+  }
+  
+  
+  
+  .video2{
+    position: absolute;
+    width: 220px;
+    top: 330px;
+    left: 770px;
+    border-radius: 10px;
+  }
+  
+  .lov2{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 800px;
+    left: 680px;
+    display: none;
+  }
+  
+  
+  
+  .video3{
+    position: absolute;
+    width: 900px;
+    top: 540px;
+    left: 62px;
+    border-radius: 20px;
+  }
+  
+  .rasp{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 60px;
+    color: white;
+    top: 1015px;
+    left: 400px;
+  }
+
+
+
+
+
+
+
+
+  .footer{
+    margin: 0%;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: darkolivegreen;
+    bottom: -495px;
+  }
+  
+  .tel{
+    margin: 0px;
+    position: absolute;
+    top: 6px;
+    left: 140px;
+  }
+  
+  .smilefoot{
+    margin: 0%;
+    text-align: center;
+    padding-top: 4px;
+    display: block;
+  }
+  
+  .post{
+    margin: 0%;
+    position: absolute;
+    right: 140px;
+    top: 6px;
+  }
+   
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1600px) {
+  @font-face {
+    font-family: Bug;
+    src: url(gnyrwn971.ttf);
+  }
+  
+  body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Bug;
+  }
+  
+  .openNav{
+    position: absolute;
+    font-size: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .closeNav{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    display: none;
+  }
+  
+  .openNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .closeNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .nav{
+    margin: 0%;
+    position: absolute;
+    z-index: 20;
+    width: 310px;
+    height: 350px;
+    background: rgb(255, 32, 88);
+    left: 65px;
+    top: 65px;
+    border-radius: 25px;
+    display: none;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  
+  nav ul li{
+    padding-bottom: 30px;
+    padding-right: 10px;
+  }
+  
+  nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav ul li a:hover{
+    transition: 0.5s;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px rgb(255, 33, 155);
+  }
+  
+  
+  
+  
+  .home{
+    margin: 0%;
+  }
+  
+  .home::after{
+    content: "";
+    position: absolute;
+    background-image: url(fon4.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  
+  
+  
+  
+  h1{
+    margin: 0%;
+    position: absolute;
+    font-size: 40px;
+    left: 645px;
+    top: 10px;
+    color: white;
+  }
+  
+  
+  .txt1{
+    position: absolute;
+    margin: 0%;
+    width: 600px;
+    height: 300px;
+    top: 80px;
+  }
+  
+  .p1{
+    margin: 0%;
+    font-size: 33px;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  .list{
+    font-size: 27px;
+    color: white;
+  }
+  
+  
+  
+  .matrasik{
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .matrasiktxt{
+    position: absolute;
+    font-size: 23px;
+    right: 65px;
+    top: 155px;
+    color: white;
+  }
+  
+  
+  
+  .txt2{
+    margin: 0%;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    top: 80px;
+    left: 600px;
+  }
+  
+  .p2{
+    font-size: 27px;
+    color: white;
+  }
+
+  .hrysina{
+    position: absolute;
+    display: block;
+    width: 150px;
+    top: 300px;
+    left: 800px;
+    animation: hrysina 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes hrysina {
+    0%{
+      left: 800px;
+    }
+
+    10%{
+      transform: rotatez(5deg);
+    }
+
+    20%{
+      transform: rotatez(-10deg);
+    }
+
+    
+    30%{
+      transform: rotatez(10deg);
+    }
+
+    
+    40%{
+      transform: rotatez(-10deg);
+    }
+
+    
+    50%{
+      transform: rotatez(10deg);
+    }
+
+    
+    60%{
+      transform: rotatez(-10deg);
+    }
+
+    
+    70%{
+      transform: rotatez(10deg);
+    }
+
+    
+    80%{
+      transform: rotatez(-10deg);
+    }
+
+    
+    90%{
+      transform: rotatez(10deg);
+    }
+
+    99%{
+      left: -250px;
+    }
+    100%{
+      display: none;
+    }
+  }
+
+
+
+  
+  
+  .p3{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 420px;
+    left: 300px;
+  }
+  
+  .st1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 440px;
+    left: 270px;
+    transform: none;
+  }
+  
+  .st2{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 440px;
+    left: 757px;
+    transform: none;
+  }
+  
+  
+  .p4{
+    position: absolute;
+    font-size: 27px;
+    color: white;
+    top: 280px;
+    left: 1070px;
+  }
+  
+  
+  
+  .video1{
+    position: absolute;
+    width: 510px;
+    top: 540px;
+    left: 12px;
+    border-radius: 20px;
+  }
+  
+  .lov1{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 800px;
+    left: 160px;
+    display: block;
+  }
+  
+  
+  
+  .video2{
+    position: absolute;
+    width: 510px;
+    top: 540px;
+    left: 537px;
+    border-radius: 20px;
+  }
+  
+  .lov2{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 800px;
+    left: 680px;
+    display: block;
+  }
+  
+  
+  
+  .video3{
+    position: absolute;
+    width: 510px;
+    top: 540px;
+    left: 1062px;
+    border-radius: 20px;
+  }
+  
+  .rasp{
+    position: absolute;
+    margin-top: 33px;
+    font-size: 33px;
+    color: white;
+    top: 800px;
+    left: 1270px;
+  }
+
+
+
+
+
+
+  .footer{
+    margin: 0%;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: darkolivegreen;
+    bottom: -30px;
+  }
+  
+  .tel{
+    margin: 0px;
+    position: absolute;
+    top: 6px;
+    left: 140px;
+  }
+  
+  .smilefoot{
+    margin: 0%;
+    text-align: center;
+    padding-top: 4px;
+  }
+  
+  .post{
+    margin: 0%;
+    position: absolute;
+    right: 140px;
+    top: 6px;
+  }
+   
+}

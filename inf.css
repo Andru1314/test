@@ -1,0 +1,1158 @@
+@font-face {
+  font-family: Bug;
+  src: url(gnyrwn971.ttf);
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: Bug;
+}
+
+.openNav{
+  position: absolute;
+  font-size: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  background: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.closeNav{
+  position: absolute;
+  font-size: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  display: none;
+}
+
+.openNav:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.closeNav:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.nav{
+  margin: 0%;
+  position: absolute;
+  z-index: 20;
+  width: 310px;
+  height: 350px;
+  background: rgb(119, 119, 119);
+  left: 65px;
+  top: 65px;
+  border-radius: 25px;
+  display: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+
+nav ul li a{
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+
+nav ul li a:hover{
+  transition: 0.5s;
+  font-size: 31px;
+  text-shadow: 2px 2px 2px rgb(204, 204, 204);
+}
+
+
+
+.home{
+  margin: 0%;
+}
+
+.home::after{
+  content: "";
+  position: absolute;
+  background-image: url(fon1.jpg);
+  width: 100%;
+  height: 300vh;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+
+h2{
+  margin: 0%;
+  position: absolute;
+  font-size: 29px;
+  width: 290px;
+  top: 10px;
+  left: 64px;
+  text-align: center;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.imginf1{
+  position: absolute;
+  height: 130px;
+  top: 100px;
+  left: 20px;
+  border-radius: 20px;
+}
+
+.txt1{
+  position: absolute;
+  font-size: 22px;
+  width: 150px;
+  top: 88px;
+  color: rgb(81, 255, 0);
+}
+
+.txt1-1{
+  margin: 0%;
+  position: absolute;
+  font-size: 22px;
+  width: 150px;
+  left: 245px;
+  top: 23px;
+  color: rgb(81, 255, 0);
+}
+
+.txt1-2{
+  margin: 0%;
+  position: absolute;
+  font-size: 30px;
+  left: 30px;
+  top: 175px;
+  width: 370px;
+  color: rgb(81, 255, 0);
+}
+
+.smile1{
+  position: absolute;
+  font-size: 65px;
+  left: 1200px;
+  color: yellow;
+  display: none;
+}
+
+
+
+.imginf2{
+  position: absolute;
+  height: 130px;
+  top: 700px;
+  right: 20px;
+  border-radius: 20px;
+}
+
+.txt2{
+  position: absolute;
+  font-size: 23px;
+  left: 10px;
+  top: 680px;
+  width: 150px;
+  color: rgb(255, 68, 0);
+}
+
+.txt2-1{
+  position: absolute;
+  font-size: 24px;
+  left: 10px;
+  top: 0px;
+  width: 165px;
+  color: rgb(255, 68, 0);
+}
+
+.txt2-2{
+  position: absolute;
+  width: 380px;
+  font-size: 27px;
+  left: 20px;
+  top: 140px;
+  color: rgb(255, 68, 0);
+}
+
+
+.smile2{
+  position: absolute;
+  font-size: 60px;
+  top: 350px;
+  left: 200px;
+  color: rgb(11, 255, 0);
+  display: none;
+}
+
+
+
+.imginf3{
+  position: absolute;
+  height: 130px;
+  left: 20px;
+  top: 1330px;
+  border-radius: 20px;
+}
+
+.txt3{
+  position: absolute;
+  font-size: 25px;
+  left: 100px;
+  top: 1320px;
+  color: rgb(255, 239, 12);
+}
+
+.txt3-1{
+  position: absolute;
+  width: 210px;
+  font-size: 27px;
+  left: 110px;
+  color: rgb(255, 239, 12);
+}
+
+.txt3-2{
+  position: absolute;
+  width: 380px;
+  font-size: 26px;
+  left: -70px;
+  top: 140px;
+  color: rgb(255, 239, 12);
+}
+
+.smile3{
+  position: absolute;
+  font-size: 70px;
+  left: 1100px;
+  top: 630px;
+  color: rgb(241, 68, 0);
+  display: none;
+}
+
+#txt1{
+  display: none;
+}
+
+#txt2{
+  display: none;
+}
+
+#txt3{
+  display: none;
+}
+
+
+
+
+.footer{
+  margin: 0%;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: darkolivegreen;
+  bottom: -1358px;
+}
+
+.tel{
+  margin: 0px;
+  position: absolute;
+  top: 6px;
+  left: 40px;
+}
+
+.smilefoot{
+  margin: 0%;
+  text-align: center;
+  padding-top: 4px;
+  display: none;
+}
+
+.post{
+  margin: 0%;
+  position: absolute;
+  right: 40px;
+  top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){
+
+
+  @font-face {
+    font-family: Bug;
+    src: url(gnyrwn971.ttf);
+  }
+  
+  body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Bug;
+  }
+  
+  .openNav{
+    position: absolute;
+    font-size: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .closeNav{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    display: none;
+  }
+  
+  .openNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .closeNav:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  .nav{
+    margin: 0%;
+    position: absolute;
+    z-index: 20;
+    width: 310px;
+    height: 350px;
+    background: rgb(119, 119, 119);
+    left: 65px;
+    top: 65px;
+    border-radius: 25px;
+    display: none;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  
+  nav ul li{
+    padding-bottom: 30px;
+    padding-right: 10px;
+  }
+  
+  nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  nav ul li a:hover{
+    transition: 0.5s;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px rgb(204, 204, 204);
+  }
+  
+  
+  
+  .home{
+    margin: 0%;
+  }
+  
+  .home::after{
+    content: "";
+    position: absolute;
+    background-image: url(fon1.jpg);
+    width: 100%;
+    height: 300vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  
+  h2{
+    margin: 0%;
+    position: absolute;
+    width: 500px;
+    font-size: 33px;
+    top: 15px;
+    left: 150px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .imginf1{
+    position: absolute;
+    height: 170px;
+    top: 80px;
+    left: 40px;
+    border-radius: 30px;
+  }
+  
+  .txt1{
+    position: absolute;
+    font-size: 27px;
+    left: 40px;
+    top: 78px;
+    color: rgb(81, 255, 0);
+  }
+
+  .txt1-1{
+    position: absolute;
+    width: 250px;
+    font-size: 33px;
+    left: 300px;
+    color: rgb(81, 255, 0);
+  }
+
+  .txt1-2{
+    position: absolute;
+    width: 700px;
+    font-size: 37px;
+    left: 0px;
+    top: 205px;
+    color: rgb(81, 255, 0);
+  }
+  
+  .smile1{
+    position: absolute;
+    font-size: 65px;
+    left: 400px;
+    top: 450px;
+    color: yellow;
+    display: block;
+  }
+  
+  
+  
+  .imginf2{
+    position: absolute;
+    height: 170px;
+    top: 680px;
+    right: 40px;
+    border-radius: 30px;
+  }
+  
+  .txt2{
+    position: absolute;
+    left: 40px;
+    top: 670px;
+    color: rgb(255, 68, 0);
+  }
+
+  .txt2-1{
+    position: absolute;
+    font-size: 34px;
+    width: 360px;
+    color: rgb(255, 68, 0);
+  }
+
+  .txt2-2{
+    position: absolute;
+    width: 670px;
+    font-size: 32px;
+    top: 200px;
+    color: rgb(255, 68, 0);
+  }
+  
+  .smile2{
+    position: absolute;
+    font-size: 60px;
+    top: 350px;
+    left: 200px;
+    color: rgb(11, 255, 0);
+  }
+  
+  
+  
+  .imginf3{
+    position: absolute;
+    height: 200px;
+    left: 40px;
+    top: 1350px;
+    border-radius: 30px;
+  }
+  
+  .txt3{
+    position: absolute;
+    left: 120px;
+    top: 1340px;
+    color: rgb(255, 239, 12);
+  }
+
+  .txt3-1{
+    position: absolute;
+    width: 300px;
+    left: 230px;
+    font-size: 39px;
+    color: rgb(255, 239, 12);
+  }
+
+  .txt3-2{
+    position: absolute;
+    width: 700px;
+    font-size: 28px;
+    top: 200px;
+    color: rgb(255, 239, 12);
+  }
+  
+  .smile3{
+    position: absolute;
+    font-size: 76px;
+    left: 400px;
+    top: 1730px;
+    color: rgb(241, 68, 0);
+    display: block;
+  }
+  
+  
+  
+  
+  
+  .footer{
+    margin: 0%;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: darkolivegreen;
+    bottom: -1358px;
+  }
+  
+  .tel{
+    margin: 0px;
+    position: absolute;
+    top: 6px;
+    left: 40px;
+  }
+  
+  .smilefoot{
+    margin: 0%;
+    text-align: center;
+    padding-top: 4px;
+    display: none;
+  }
+  
+  .post{
+    margin: 0%;
+    position: absolute;
+    right: 40px;
+    top: 6px;
+  }
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width:1024px){
+
+
+    @font-face {
+      font-family: Bug;
+      src: url(gnyrwn971.ttf);
+    }
+    
+    body{
+      margin: 0%;
+      padding: 0%;
+      font-family: Bug;
+    }
+    
+    .openNav{
+      position: absolute;
+      font-size: 45px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      background: none;
+      border-radius: 10px;
+      border: none;
+    }
+    
+    .closeNav{
+      position: absolute;
+      font-size: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      background: none;
+      border-radius: 10px;
+      border: none;
+      display: none;
+    }
+    
+    .openNav:hover{
+      cursor: pointer;
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+    
+    .closeNav:hover{
+      cursor: pointer;
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+    
+    .nav{
+      margin: 0%;
+      position: absolute;
+      z-index: 20;
+      width: 310px;
+      height: 350px;
+      background: rgb(119, 119, 119);
+      left: 65px;
+      top: 65px;
+      border-radius: 25px;
+      display: none;
+    }
+    
+    nav ul{
+      list-style: none;
+    }
+    
+    nav ul li{
+      padding-bottom: 30px;
+      padding-right: 10px;
+    }
+    
+    nav ul li a{
+      font-size: 30px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    
+    nav ul li a:hover{
+      transition: 0.5s;
+      font-size: 31px;
+      text-shadow: 2px 2px 2px rgb(204, 204, 204);
+    }
+    
+    
+    
+    .home{
+      margin: 0%;
+    }
+    
+    .home::after{
+      content: "";
+      position: absolute;
+      background-image: url(fon1.jpg);
+      width: 100%;
+      height: 300vh;
+      background-repeat: no-repeat;
+      background-size:cover ;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+      opacity: 0.8;
+    }
+    
+    
+    h2{
+      margin: 0%;
+      position: absolute;
+      font-size: 40px;
+      top: 20px;
+      left: 280px;
+      text-shadow: 1px 1px 2px grey;
+    }
+    
+    .imginf1{
+      position: absolute;
+      height: 200px;
+      top: 80px;
+      left: 40px;
+      border-radius: 30px;
+    }
+    
+    .txt1{
+      position: absolute;
+      font-size: 27px;
+      left: 40px;
+      top: 83px;
+      color: rgb(81, 255, 0);
+    }
+  
+    .txt1-1{
+      position: absolute;
+      width: 300px;
+      font-size: 38px;
+      left: 350px;
+      color: rgb(81, 255, 0);
+    }
+  
+    .txt1-2{
+      position: absolute;
+      text-align: center;
+      width: 900px;
+      font-size: 45px;
+      left: 30px;
+      top: 240px;
+      color: rgb(81, 255, 0);
+    }
+    
+    .smile1{
+      position: absolute;
+      font-size: 65px;
+      left: 720px;
+      top: 70px;
+      color: yellow;
+      display: block;
+    }
+    
+    
+    
+    .imginf2{
+      position: absolute;
+      height: 200px;
+      top: 680px;
+      right: 40px;
+      border-radius: 30px;
+    }
+    
+    .txt2{
+      position: absolute;
+      left: 60px;
+      top: 650px;
+      color: rgb(255, 68, 0);
+    }
+  
+    .txt2-1{
+      position: absolute;
+      width: 250px;
+      font-size: 36px;
+      left: 340px;
+      color: rgb(255, 68, 0);
+    }
+  
+    .txt2-2{
+      position: absolute;
+      text-align: center;
+      width: 900px;
+      font-size: 41px;
+      left: 0px;
+      top: 205px;
+      color: rgb(255, 68, 0);
+    }
+    
+    .smile2{
+      position: absolute;
+      font-size: 60px;
+      top: 660px;
+      left: 30px;
+      color: rgb(11, 255, 0);
+      display: block;
+    }
+    
+    
+    
+    .imginf3{
+      position: absolute;
+      height: 230px;
+      left: 70px;
+      top: 1340px;
+      border-radius: 30px;
+    }
+    
+    .txt3{
+      position: absolute;
+      font-size: 27px;
+      left: 60px;
+      top: 1340px;
+      color: rgb(255, 239, 12);
+    }
+  
+    .txt3-1{
+      position: absolute;
+      width: 300px;
+      font-size: 39px;
+      left: 340px;
+      color: rgb(255, 239, 12);
+    }
+  
+    .txt3-2{
+      position: absolute;
+      text-align: center;
+      width: 900px;
+      font-size: 37px;
+      left: 0px;
+      top: 205px;
+      color: rgb(255, 239, 12);
+    }
+    
+    .smile3{
+      position: absolute;
+      font-size: 70px;
+      left: 730px;
+      top: 1310px;
+      color: rgb(241, 68, 0);
+    }
+    
+    
+    
+    
+    
+    .footer{
+      margin: 0%;
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      background-color: darkolivegreen;
+      bottom: -1358px;
+    }
+    
+    .tel{
+      margin: 0px;
+      position: absolute;
+      top: 6px;
+      left: 40px;
+    }
+    
+    .smilefoot{
+      margin: 0%;
+      text-align: center;
+      padding-top: 4px;
+      display: none;
+    }
+    
+    .post{
+      margin: 0%;
+      position: absolute;
+      right: 40px;
+      top: 6px;
+    }
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1600px){
+
+
+@font-face {
+  font-family: Bug;
+  src: url(gnyrwn971.ttf);
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: Bug;
+}
+
+.openNav{
+  position: absolute;
+  font-size: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  background: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.closeNav{
+  position: absolute;
+  font-size: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  display: none;
+}
+
+.openNav:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.closeNav:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.nav{
+  margin: 0%;
+  position: absolute;
+  z-index: 20;
+  width: 310px;
+  height: 350px;
+  background: rgb(119, 119, 119);
+  left: 65px;
+  top: 65px;
+  border-radius: 25px;
+  display: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+
+nav ul li a{
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+
+nav ul li a:hover{
+  transition: 0.5s;
+  font-size: 31px;
+  text-shadow: 2px 2px 2px rgb(204, 204, 204);
+}
+
+
+
+.home{
+  margin: 0%;
+}
+
+.home::after{
+  content: "";
+  position: absolute;
+  background-image: url(fon1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+
+h2{
+  margin: 0%;
+  position: absolute;
+  font-size: 40px;
+  top: 20px;
+  left: 550px;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.imginf1{
+  position: absolute;
+  height: 200px;
+  top: 80px;
+  left: 90px;
+  border-radius: 30px;
+}
+
+#txt1{
+  position: absolute;
+  font-size: 27px;
+  left: 440px;
+  top: 65px;
+  color: rgb(81, 255, 0);
+  display: block;
+}
+.txt1{
+  display: none;
+}
+
+.smile1{
+  position: absolute;
+  font-size: 65px;
+  left: 1200px;
+  color: yellow;
+}
+
+
+
+.imginf2{
+  position: absolute;
+  height: 200px;
+  top: 350px;
+  right: 40px;
+  border-radius: 30px;
+}
+
+#txt2{
+  position: absolute;
+  font-size: 23px;
+  left: 700px;
+  top: 330px;
+  color: rgb(255, 68, 0);
+  display: block;
+}
+.txt2{
+  display: none;
+}
+
+.smile2{
+  position: absolute;
+  font-size: 60px;
+  top: 350px;
+  left: 200px;
+  color: rgb(11, 255, 0);
+}
+
+
+
+.imginf3{
+  position: absolute;
+  height: 230px;
+  left: 70px;
+  top: 630px;
+  border-radius: 30px;
+}
+
+#txt3{
+  position: absolute;
+  font-size: 25px;
+  left: 400px;
+  top: 611px;
+  color: rgb(255, 239, 12);
+  display: block;
+}
+.txt3{
+  display: none;
+}
+
+.smile3{
+  position: absolute;
+  font-size: 70px;
+  left: 1100px;
+  top: 630px;
+  color: rgb(241, 68, 0);
+}
+
+
+
+
+
+.footer{
+  margin: 0%;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: darkolivegreen;
+  bottom: -30px;
+}
+
+.tel{
+  margin: 0px;
+  position: absolute;
+  top: 6px;
+  left: 140px;
+}
+
+.smilefoot{
+  margin: 0%;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.post{
+  margin: 0%;
+  position: absolute;
+  right: 140px;
+  top: 6px;
+}
+
+
+}
+
